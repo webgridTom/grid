@@ -1,0 +1,11 @@
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "c87e3f96-6c3f-4040-b25e-92e31e467f70",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
